@@ -1,0 +1,152 @@
+html, body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    color: white;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+#elia {
+    font-family: Madimi One;
+    position: absolute;
+    left: 5vw;
+    top: 5vh;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+.background-image {
+    background-image: url("183899.jpg");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+main {
+    width: 35vw;
+    height: 80vh;
+    margin-left: 28vw;
+}
+
+.trasparente {
+    font-family: 'Poppins',sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 0;
+    border-radius: 10px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+section {
+    width: 25vw;
+    height: 35vh;
+    text-align: center;
+    font-size: 1.8vh;
+    margin-right: 5vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    position: absolute;
+    top: 20%;
+}
+
+label {
+    display: block;
+    margin-top: 4vh;
+    font-size: 2.1vh;
+}
+
+input {
+    display: block;
+    height: 7vh;
+    width: 100%;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 2px;
+    font-size: 2.4vh;
+    color: white;
+    padding: 0 10px;
+}
+
+    input[type="submit"] {
+        width: 80%;
+        margin-top: 10%;
+        color: white;
+    }
+
+    input::placeholder {
+        margin-left: 10px;
+    }
+
+h1 {
+    color: white;
+    font-size: 7vh;
+    text-align: center;
+    position: absolute;
+    top: 1%;
+}
+
+.warning {
+    background-color: yellow;
+    margin-top: 15px;
+    border: 1px solid black;
+    padding: 5px 50px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7vh;
+}
+
+section .warning {
+    width: 60%;
+    padding: 1vh 2vw;
+    margin-top: 5vh;
+}
+
+.warning img {
+    height: 30px;
+    margin-right: 10px;
+    max-height: 10vh;
+}
+
+p {
+    font-size: 2vh;
+}
+
+#scambio {
+    display: block;
+    width: 60%;
+    background-color: paleturquoise;
+    margin-top: 8vh;
+    padding: 1vh 2vw;
+    color: black;
+    text-decoration: none;
+}
